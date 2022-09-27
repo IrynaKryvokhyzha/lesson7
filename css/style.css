@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff"); 
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff"); 
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff"); 
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #424551;
+	max-width: 810px;
+	margin: 0 auto;
+	background: url("../img/school-pictures-lead.jpg") bottom repeat-x ,url("../img/gettyimages-550582551-1024x1024.jpg") center no-repeat fixed,linear-gradient(135deg, #febbbb 18%,#ff5c5c 100%);
+}
+.topic {
+	font-weight: 900;
+	font-size: 46px;
+	color: #1E212C;
+	margin: 190px 0 92px 0;
+}
+.image {
+	margin-bottom: 60px;
+	max-width: 100%;
+}
+.section {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 24px;
+	color: #1E212C;
+}
+.section_container {
+	margin-bottom: 48px;
+}
+.section_container_top{
+	margin-bottom: 24px;
+}
+.section_paragraph {
+	font-weight: 700;
+	font-size: 20px;
+	color: #1E212C;
+	margin-bottom: 48px;
+	padding-left: 58px;
+}
+.list_main {
+	margin-bottom: 24px;
+	padding-left: 32px;
+}
+.list_title{
+	margin-bottom: 24px;
+}
+.section_bottom {
+	margin-bottom: 24px;
+}
+.link {
+	margin-bottom: 30px;
+	text-decoration: underline;
+	color: blue;
+}
